@@ -50,35 +50,35 @@ export default {
 
 <style lang="scss">
 @import "./utilities/_mediaBreakpoints.scss";
-// @font-face {
-//     font-family: 'Helvetica Neue';
-//     font-weight: 500;
-//     src: url('./fonts/Helvetica-Neue/HelveticaNeueCyr-Medium.eot');
-//     src: local('Helvetica Neue Medium'), url('./fonts/Helvetica-Neue/HelveticaNeueCyr-Medium.eot') format('embedded-opentype'),
-//          url('./fonts/Helvetica-Neue/HelveticaNeueCyr-Medium.woff2') format('woff2'),
-//          url('./fonts/Helvetica-Neue/HelveticaNeueCyr-Medium.woff') format('woff'),
-//          url('./fonts/Helvetica-Neue/HelveticaNeueCyr-Medium.ttf') format('truetype');
-// }
-// @font-face {
-//     font-family: 'PT Mono';
-//     font-weight: 400;
-//     src: url('./fonts/PT-Mono/PTMonoRegular.eot');
-//     src: local('PT Mono'), url('./fonts/PT-Mono/PTMonoRegular.eot') format('embedded-opentype'),
-//          url('./fonts/PT-Mono/PTMonoRegular.woff2') format('woff2'),
-//          url('./fonts/PT-Mono/PTMonoRegular.woff') format('woff'),
-//          url('./fonts/PT-Mono/PTMonoRegular.ttf') format('truetype'),
-//          url('./fonts/PT-Mono/PTMonoRegular.svg#PTMonoRegular') format('svg');
-// }
-// @font-face {
-//     font-family: 'PT Mono';
-//     font-weight: 700;
-//     src: url('./fonts/PT-Mono/PTMonoBold.eot');
-//     src: local('PT Mono Bold'), url('./fonts/PT-Mono/PTMonoBold.eot') format('embedded-opentype'),
-//          url('./fonts/PT-Mono/PTMonoBold.woff2') format('woff2'),
-//          url('./fonts/PT-Mono/PTMonoBold.woff') format('woff'),
-//          url('./fonts/PT-Mono/PTMonoBold.ttf') format('truetype'),
-//          url('./fonts/PT-Mono/PTMonoBold.svg#PTMonoBold') format('svg');
-// }
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+    src: url('./fonts/Helvetica-Neue/HelveticaNeueCyr-Medium.eot');
+    src: local('Helvetica Neue Medium'), url('./fonts/Helvetica-Neue/HelveticaNeueCyr-Medium.eot') format('embedded-opentype'),
+         url('./fonts/Helvetica-Neue/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+         url('./fonts/Helvetica-Neue/HelveticaNeueCyr-Medium.woff') format('woff'),
+         url('./fonts/Helvetica-Neue/HelveticaNeueCyr-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PT Mono';
+    font-weight: 400;
+    src: url('./fonts/PT-Mono/PTMonoRegular.eot');
+    src: local('PT Mono'), url('./fonts/PT-Mono/PTMonoRegular.eot') format('embedded-opentype'),
+         url('./fonts/PT-Mono/PTMonoRegular.woff2') format('woff2'),
+         url('./fonts/PT-Mono/PTMonoRegular.woff') format('woff'),
+         url('./fonts/PT-Mono/PTMonoRegular.ttf') format('truetype'),
+         url('./fonts/PT-Mono/PTMonoRegular.svg#PTMonoRegular') format('svg');
+}
+@font-face {
+    font-family: 'PT Mono';
+    font-weight: 700;
+    src: url('./fonts/PT-Mono/PTMonoBold.eot');
+    src: local('PT Mono Bold'), url('./fonts/PT-Mono/PTMonoBold.eot') format('embedded-opentype'),
+         url('./fonts/PT-Mono/PTMonoBold.woff2') format('woff2'),
+         url('./fonts/PT-Mono/PTMonoBold.woff') format('woff'),
+         url('./fonts/PT-Mono/PTMonoBold.ttf') format('truetype'),
+         url('./fonts/PT-Mono/PTMonoBold.svg#PTMonoBold') format('svg');
+}
 * {
   box-sizing: border-box;
 }
