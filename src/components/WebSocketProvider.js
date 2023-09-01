@@ -14,7 +14,7 @@ export default {
             }, 2000);
 
             try {
-                wsClient = new WebSocket('wss://realtime.dodobrands.io/ws');
+                wsClient = new WebSocket('wss://notnet.package.su/ws');
             } catch (e) { return; }
 
             wsClient.onopen = function (e) {

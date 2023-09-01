@@ -13,7 +13,7 @@ export default {
             moneyOrders: {},
         });
         const update = async () => {
-            const response = await axios.get('/api/Statistics');
+            const response = await axios.get('https://notnet.package.su/api/Statistics');
             if (response.status !== 200) {
                 console.error(response);
                 return;

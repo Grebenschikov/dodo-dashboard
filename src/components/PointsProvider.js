@@ -30,7 +30,7 @@ export default {
         })
 
         async function update() {
-            const response = await axios.get('/api/Localities');
+            const response = await axios.get('https://notnet.package.su/api/Localities');
             if (response.status !== 200) {
                 console.error(response);
                 return;
